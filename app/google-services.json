@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "408952537985",
+    "project_id": "test-b144c",
+    "storage_bucket": "test-b144c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408952537985:android:f79558302fac349f7e5e80",
+        "android_client_info": {
+          "package_name": "com.zaim.microzaim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408952537985-7cmt2ubtj8gran5gtv7vnuotsulr2kib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA39-DPEh1TZYEJxQJh7rtyj7vhIupbNeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408952537985-7cmt2ubtj8gran5gtv7vnuotsulr2kib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
