@@ -11,6 +11,7 @@ import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.messaging.FirebaseMessaging
 
 
+@Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
     private lateinit var webView: WebView
     private val URL = "https://microzaim.github.io/#/"
@@ -29,8 +30,8 @@ class MainActivity : AppCompatActivity() {
 
 
 
-            println(token);
-            Toast.makeText(baseContext, "your token - $token", Toast.LENGTH_SHORT).show()
+//            println(token);
+//            Toast.makeText(baseContext, "your token - $token", Toast.LENGTH_SHORT).show()
         })
         webView = findViewById(R.id.MywebView)
         webView.apply {
@@ -40,6 +41,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         if (webView.canGoBack()) {
             webView.goBack()
